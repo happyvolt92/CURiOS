@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct GameSceneView: View {
-    @State private var playerPosition = CGPoint(x: 100, y: 100) // Initial position of the player
+    @State private var playerPosition = CGPoint(x: 80, y: 750) // Initial position of the player
     
     var body: some View {
         ZStack {
