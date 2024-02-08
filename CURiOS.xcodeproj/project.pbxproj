@@ -14,6 +14,7 @@
 		DF3D03622B75663C00513EA5 /* CURiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3D03612B75663C00513EA5 /* CURiOSTests.swift */; };
 		DF3D036C2B75663C00513EA5 /* CURiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3D036B2B75663C00513EA5 /* CURiOSUITests.swift */; };
 		DF3D036E2B75663C00513EA5 /* CURiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3D036D2B75663C00513EA5 /* CURiOSUITestsLaunchTests.swift */; };
+		DF3D037B2B75670300513EA5 /* GameSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3D037A2B75670300513EA5 /* GameSceneView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		DF3D03672B75663C00513EA5 /* CURiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CURiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF3D036B2B75663C00513EA5 /* CURiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CURiOSUITests.swift; sourceTree = "<group>"; };
 		DF3D036D2B75663C00513EA5 /* CURiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CURiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DF3D037A2B75670300513EA5 /* GameSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSceneView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				DF3D03502B75663B00513EA5 /* CURiOSApp.swift */,
+				DF3D037A2B75670300513EA5 /* GameSceneView.swift */,
 				DF3D03522B75663B00513EA5 /* ContentView.swift */,
 				DF3D03542B75663C00513EA5 /* Assets.xcassets */,
 				DF3D03562B75663C00513EA5 /* Preview Content */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF3D03532B75663B00513EA5 /* ContentView.swift in Sources */,
+				DF3D037B2B75670300513EA5 /* GameSceneView.swift in Sources */,
 				DF3D03512B75663B00513EA5 /* CURiOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
