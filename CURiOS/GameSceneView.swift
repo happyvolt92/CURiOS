@@ -1,5 +1,7 @@
 import SwiftUI
 
+import SwiftUI
+
 struct GameSceneView: View {
     @State private var playerPosition = CGPoint(x: 80, y: 750) // Initial position of the player
     
@@ -34,7 +36,7 @@ struct GameSceneView: View {
             DragGesture()
                 .onChanged { value in
                     let newPosition = value.location
-                    // We will still use collision detection with these rectangles
+                    // Check if the new position collides with any house
                     if !collidesWithHouses(position: newPosition) {
                         playerPosition = newPosition
                     }
@@ -42,20 +44,21 @@ struct GameSceneView: View {
         )
     }
     
+    // Function to check if the player collides with any house
     func collidesWithHouses(position: CGPoint) -> Bool {
         let houseRectangles = [
-            CGRect(x: 50, y: 250, width: 80, height: 80), // Bottom house rectangle
-            CGRect(x: 250, y: 150, width: 80, height: 80), // Middle house rectangle
-            CGRect(x: 450, y: 50, width: 80, height: 80) // Top house rectangle
+            CGRect(x: 60, y: 270, width: 80, height: 80), // Bottom house rectangle
+            CGRect(x: 260, y: 170, width: 80, height: 80), // Middle house rectangle
+            CGRect(x: 210, y: 570, width: 80, height: 80) // Top house rectangle
         ]
         
-        let playerRect = CGRect(origin: position, size: CGSize(width: 50, height: 50)) // Adjust size as needed
+        let playerRect = CGRect(origin: position, size: CGSize(width: 40, height: 40)) // Adjust size as needed
         for houseRect in houseRectangles {
             if playerRect.intersects(houseRect) {
-                return true
+                return true // Collision detected
             }
         }
-        return false
+        return false // No collision detected
     }
 }
 
