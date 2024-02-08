@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF3D03512B75663B00513EA5 /* CURiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3D03502B75663B00513EA5 /* CURiOSApp.swift */; };
+		DF3D03532B75663B00513EA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3D03522B75663B00513EA5 /* ContentView.swift */; };
+		DF3D03552B75663C00513EA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF3D03542B75663C00513EA5 /* Assets.xcassets */; };
+		DF3D03582B75663C00513EA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF3D03572B75663C00513EA5 /* Preview Assets.xcassets */; };
+		DF3D03622B75663C00513EA5 /* CURiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3D03612B75663C00513EA5 /* CURiOSTests.swift */; };
+		DF3D036C2B75663C00513EA5 /* CURiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3D036B2B75663C00513EA5 /* CURiOSUITests.swift */; };
+		DF3D036E2B75663C00513EA5 /* CURiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3D036D2B75663C00513EA5 /* CURiOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF3D035E2B75663C00513EA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF3D03452B75663B00513EA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF3D034C2B75663B00513EA5;
+			remoteInfo = CURiOS;
+		};
+		DF3D03682B75663C00513EA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF3D03452B75663B00513EA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF3D034C2B75663B00513EA5;
+			remoteInfo = CURiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF3D034D2B75663B00513EA5 /* CURiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CURiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF3D03502B75663B00513EA5 /* CURiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CURiOSApp.swift; sourceTree = "<group>"; };
+		DF3D03522B75663B00513EA5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF3D03542B75663C00513EA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF3D03572B75663C00513EA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF3D035D2B75663C00513EA5 /* CURiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CURiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF3D03612B75663C00513EA5 /* CURiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CURiOSTests.swift; sourceTree = "<group>"; };
+		DF3D03672B75663C00513EA5 /* CURiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CURiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF3D036B2B75663C00513EA5 /* CURiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CURiOSUITests.swift; sourceTree = "<group>"; };
+		DF3D036D2B75663C00513EA5 /* CURiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CURiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF3D034A2B75663B00513EA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3D035A2B75663C00513EA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3D03642B75663C00513EA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF3D03442B75663B00513EA5 = {
+			isa = PBXGroup;
+			children = (
+				DF3D034F2B75663B00513EA5 /* CURiOS */,
+				DF3D03602B75663C00513EA5 /* CURiOSTests */,
+				DF3D036A2B75663C00513EA5 /* CURiOSUITests */,
+				DF3D034E2B75663B00513EA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF3D034E2B75663B00513EA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF3D034D2B75663B00513EA5 /* CURiOS.app */,
+				DF3D035D2B75663C00513EA5 /* CURiOSTests.xctest */,
+				DF3D03672B75663C00513EA5 /* CURiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF3D034F2B75663B00513EA5 /* CURiOS */ = {
+			isa = PBXGroup;
+			children = (
+				DF3D03502B75663B00513EA5 /* CURiOSApp.swift */,
+				DF3D03522B75663B00513EA5 /* ContentView.swift */,
+				DF3D03542B75663C00513EA5 /* Assets.xcassets */,
+				DF3D03562B75663C00513EA5 /* Preview Content */,
+			);
+			path = CURiOS;
+			sourceTree = "<group>";
+		};
+		DF3D03562B75663C00513EA5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DF3D03572B75663C00513EA5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF3D03602B75663C00513EA5 /* CURiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF3D03612B75663C00513EA5 /* CURiOSTests.swift */,
+			);
+			path = CURiOSTests;
+			sourceTree = "<group>";
+		};
+		DF3D036A2B75663C00513EA5 /* CURiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF3D036B2B75663C00513EA5 /* CURiOSUITests.swift */,
+				DF3D036D2B75663C00513EA5 /* CURiOSUITestsLaunchTests.swift */,
+			);
+			path = CURiOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF3D034C2B75663B00513EA5 /* CURiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF3D03712B75663C00513EA5 /* Build configuration list for PBXNativeTarget "CURiOS" */;
+			buildPhases = (
+				DF3D03492B75663B00513EA5 /* Sources */,
+				DF3D034A2B75663B00513EA5 /* Frameworks */,
+				DF3D034B2B75663B00513EA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CURiOS;
+			productName = CURiOS;
+			productReference = DF3D034D2B75663B00513EA5 /* CURiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF3D035C2B75663C00513EA5 /* CURiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF3D03742B75663C00513EA5 /* Build configuration list for PBXNativeTarget "CURiOSTests" */;
+			buildPhases = (
+				DF3D03592B75663C00513EA5 /* Sources */,
+				DF3D035A2B75663C00513EA5 /* Frameworks */,
+				DF3D035B2B75663C00513EA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF3D035F2B75663C00513EA5 /* PBXTargetDependency */,
+			);
+			name = CURiOSTests;
+			productName = CURiOSTests;
+			productReference = DF3D035D2B75663C00513EA5 /* CURiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF3D03662B75663C00513EA5 /* CURiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF3D03772B75663C00513EA5 /* Build configuration list for PBXNativeTarget "CURiOSUITests" */;
+			buildPhases = (
+				DF3D03632B75663C00513EA5 /* Sources */,
+				DF3D03642B75663C00513EA5 /* Frameworks */,
+				DF3D03652B75663C00513EA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF3D03692B75663C00513EA5 /* PBXTargetDependency */,
+			);
+			name = CURiOSUITests;
+			productName = CURiOSUITests;
+			productReference = DF3D03672B75663C00513EA5 /* CURiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF3D03452B75663B00513EA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					DF3D034C2B75663B00513EA5 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					DF3D035C2B75663C00513EA5 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DF3D034C2B75663B00513EA5;
+					};
+					DF3D03662B75663C00513EA5 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DF3D034C2B75663B00513EA5;
+					};
+				};
+			};
+			buildConfigurationList = DF3D03482B75663B00513EA5 /* Build configuration list for PBXProject "CURiOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF3D03442B75663B00513EA5;
+			productRefGroup = DF3D034E2B75663B00513EA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF3D034C2B75663B00513EA5 /* CURiOS */,
+				DF3D035C2B75663C00513EA5 /* CURiOSTests */,
+				DF3D03662B75663C00513EA5 /* CURiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF3D034B2B75663B00513EA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3D03582B75663C00513EA5 /* Preview Assets.xcassets in Resources */,
+				DF3D03552B75663C00513EA5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3D035B2B75663C00513EA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3D03652B75663C00513EA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF3D03492B75663B00513EA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3D03532B75663B00513EA5 /* ContentView.swift in Sources */,
+				DF3D03512B75663B00513EA5 /* CURiOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3D03592B75663C00513EA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3D03622B75663C00513EA5 /* CURiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3D03632B75663C00513EA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3D036C2B75663C00513EA5 /* CURiOSUITests.swift in Sources */,
+				DF3D036E2B75663C00513EA5 /* CURiOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF3D035F2B75663C00513EA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF3D034C2B75663B00513EA5 /* CURiOS */;
+			targetProxy = DF3D035E2B75663C00513EA5 /* PBXContainerItemProxy */;
+		};
+		DF3D03692B75663C00513EA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF3D034C2B75663B00513EA5 /* CURiOS */;
+			targetProxy = DF3D03682B75663C00513EA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DF3D036F2B75663C00513EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF3D03702B75663C00513EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF3D03722B75663C00513EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CURiOS/Preview Content\"";
+				DEVELOPMENT_TEAM = KMMD247NN3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NeptuneDevelopment.CURiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF3D03732B75663C00513EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CURiOS/Preview Content\"";
+				DEVELOPMENT_TEAM = KMMD247NN3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NeptuneDevelopment.CURiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF3D03752B75663C00513EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMMD247NN3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NeptuneDevelopment.CURiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CURiOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CURiOS";
+			};
+			name = Debug;
+		};
+		DF3D03762B75663C00513EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMMD247NN3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NeptuneDevelopment.CURiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CURiOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CURiOS";
+			};
+			name = Release;
+		};
+		DF3D03782B75663C00513EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMMD247NN3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NeptuneDevelopment.CURiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CURiOS;
+			};
+			name = Debug;
+		};
+		DF3D03792B75663C00513EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMMD247NN3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NeptuneDevelopment.CURiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CURiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF3D03482B75663B00513EA5 /* Build configuration list for PBXProject "CURiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3D036F2B75663C00513EA5 /* Debug */,
+				DF3D03702B75663C00513EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF3D03712B75663C00513EA5 /* Build configuration list for PBXNativeTarget "CURiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3D03722B75663C00513EA5 /* Debug */,
+				DF3D03732B75663C00513EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF3D03742B75663C00513EA5 /* Build configuration list for PBXNativeTarget "CURiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3D03752B75663C00513EA5 /* Debug */,
+				DF3D03762B75663C00513EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF3D03772B75663C00513EA5 /* Build configuration list for PBXNativeTarget "CURiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3D03782B75663C00513EA5 /* Debug */,
+				DF3D03792B75663C00513EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF3D03452B75663B00513EA5 /* Project object */;
+}
